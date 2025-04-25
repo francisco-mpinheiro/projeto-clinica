@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    background-color: #2F6690;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+    font-family: Inter;
+
+    color: aliceblue;
+}
+
+.imagem-doutores{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+
+.container {
+    background-color: #3A7CA5;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 75px 50px auto;
+    border-radius: 10px;
+}
+
+.imagem-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.imagem-login img {
+    
+    width: 128px;
+    height: 128px;
+    border: 2px solid #509be2;
+    background-color: aliceblue;
+    border-radius: 50%;
+    top: -50px; /* Ajuste a posição para alinhar melhor */
+    
+    transform: translateY(-50%);
+       
+}
+
+.imagem-login h1 {
+    transform: translateY(-100%);
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-15%);
+}
+
+.inserir-dados {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inserir-dados input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    
+}
+
+
+
+.lembrar-recuperar-senha{
+    display: flex;
+    gap: 120px;
+    font-size: 12px;
+    margin-top: 5px;
+    
+    
+}
+
+.lembrar-recuperar-senha li {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.lembrar-recuperar-senha a {
+    color: aliceblue;
+}
+
+.lembrar-recuperar-senha input[type="checkbox"] {
+    accent-color: #2F6690; /* Muda a cor do checkbox nos navegadores modernos */
+}
+
+
+.botao{
+    margin-top: 30px;
+    width: 125px;
+    height: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #2F6690;
+    color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.container p {
+    margin-top: 10px;
+    
+    font-size: 12px;
+}
+
+
+input:focus{
+    outline: none;
+    border: none;
+}
+
+
+
+.acessibilidade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+/* Faltou conseguir por icone dentro do placeholder, tentar achar alguma solucao 
+    deixar responsivo, buscar melhorias, criar outras telas
+*/
+
+.input-email {
+    gap: 6px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.input-email  i {
+    color: #2F6690;
+    margin-left: 5px;
+}
+
+
+
+
+.input-senha {
+    gap: 6px;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.input-senha i {
+    color: #2F6690;
+    margin: 5px;
+}
+
+
+input::placeholder {
+    color: #2F6690 ;
+}
+
+
+
+
+.cadastro a {
+    color: white;
+}
+
+a:hover {
+    color: #8A2BE2;
+}

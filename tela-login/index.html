@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Tela Clinica</title>
+  </head>
+  <body>
+    <div class="imagem-doutores">
+      <img
+        src="./src/images/Doctors-bro 1.png"
+        alt="imagem dos doutroes"
+        width="550px"
+        height="550px"
+      />
+    </div>
+    <main class="container">
+      <div class="imagem-login">
+        <img
+          src="./src/images/pngwing.com 1 sem borda 3.png"
+          alt="icone tela de login"
+          width="96px"
+          height="96px"
+        />
+        <h1>Login</h1>
+      </div>
+      <form action="index" class="formulario">
+        <div class="inserir-dados">
+          <label for="email">E-mail</label>
+          <div class="input-email">
+            <!-- <label for="email">E-mail</label><br /> -->
+            <i class="fa-solid fa-at"></i>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu e-mail"
+            />
+          </div>
+          <label for="senha">Senha</label>
+          <div class="input-senha">
+            <i class="fa-solid fa-lock"></i>
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              placeholder="Digite sua senha"
+            />
+          </div>
+        </div>
+
+        <ul class="lembrar-recuperar-senha">
+          <li>
+            <input type="checkbox" name="lembrar-me" id="lembrar-me" />
+            <label for="lembrar-me">Lembrar-me</label>
+          </li>
+          <li>
+            <a href="#">Esqueceu a senha?</a>
+          </li>
+        </ul>
+        <button type="button" class="botao">Entrar</button>
+      </form>
+
+      <p class="cadastro">Ainda nao tem conta? <a href="#">Cadastre-se</a></p>
+    </main>
+
+    <div class="acessibilidade">
+      <img src="./src/images/image 1.svg" alt="" width="32px" height="32px" />
+      <img src="./src/images/image 2.svg" alt="" width="32px"  height="32px"/>
+    </div>
+  </body>
+</html>
