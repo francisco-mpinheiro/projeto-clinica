@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Tela Clinica</title>
   </head>
@@ -13,8 +14,7 @@
       <img
         src="./src/images/Doctors-bro 1.png"
         alt="imagem dos doutroes"
-        width="550px"
-        height="550px"
+        
       />
     </div>
     <main class="container">
@@ -25,22 +25,24 @@
           width="96px"
           height="96px"
         />
-        <h1>Login</h1>
+        <h1>Tela de Login</h1>
       </div>
       <form action="index" class="formulario">
         <div class="inserir-dados">
-          <label for="email">E-mail</label>
+          
           <div class="input-email">
-            <!-- <label for="email">E-mail</label><br /> -->
+            
             <i class="fa-solid fa-at"></i>
             <input
               type="email"
               name="email"
               id="email"
+              class="email-input"
               placeholder="Digite seu e-mail"
+              
             />
           </div>
-          <label for="senha">Senha</label>
+          
           <div class="input-senha">
             <i class="fa-solid fa-lock"></i>
             <input
@@ -48,6 +50,7 @@
               name="senha"
               id="senha"
               placeholder="Digite sua senha"
+              class="aumentar-tamanho-senha"
             />
           </div>
         </div>
@@ -55,16 +58,19 @@
         <ul class="lembrar-recuperar-senha">
           <li>
             <input type="checkbox" name="lembrar-me" id="lembrar-me" />
-            <label for="lembrar-me">Lembrar-me</label>
+            <label for="lembrar-me"><span>Lembrar-me</span></label>
           </li>
           <li>
-            <a href="#">Esqueceu a senha?</a>
+            <a href="#"><span>Esqueceu a senha?</span></a>
           </li>
         </ul>
-        <button type="button" class="botao">Entrar</button>
       </form>
+      
+      
+      <button type="button" class="botao">ENTRAR</button>
+      <br><br>
+      <p class="cadastro"><span>Ainda nao tem conta?</span> <a href="#"><span>Cadastre-se</span></a></p>
 
-      <p class="cadastro">Ainda nao tem conta? <a href="#">Cadastre-se</a></p>
     </main>
 
     <div class="acessibilidade">
@@ -73,3 +79,4 @@
     </div>
   </body>
 </html>
+

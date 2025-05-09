@@ -2,7 +2,9 @@
 body {
     background-color: #2F6690;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    
+    align-items: center;
     
     
     font-family: Inter;
@@ -19,13 +21,16 @@ body {
 
 .container {
     background-color: #3A7CA5;
-    width: 400px;
-    height: 400px;
+    width: 35%;
+    height: 670px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 150px 75px 50px auto;
-    border-radius: 10px;
+    border-radius: 20px;
+    
+   
+    
 }
 
 .imagem-login{
@@ -38,8 +43,8 @@ body {
 
 .imagem-login img {
     
-    width: 128px;
-    height: 128px;
+    width: 168px;
+    height: 168px;
     border: 2px solid #509be2;
     background-color: aliceblue;
     border-radius: 50%;
@@ -51,6 +56,7 @@ body {
 
 .imagem-login h1 {
     transform: translateY(-100%);
+    font-size: 45px;
 }
 
 
@@ -68,9 +74,9 @@ body {
 }
 
 .inserir-dados input{
-    width: 300px;
-    height: 30px;
-    border-radius: 10px;
+    width: 434px;
+    height: 55px;
+    border-radius: 20px;
     border: 0;
     
 }
@@ -78,10 +84,11 @@ body {
 
 
 .lembrar-recuperar-senha{
+    
     display: flex;
-    gap: 120px;
+    gap: 180px;
     font-size: 12px;
-    margin-top: 5px;
+    margin-top: 15px;
     
     
 }
@@ -103,14 +110,14 @@ body {
 
 .botao{
     margin-top: 30px;
-    width: 125px;
-    height: 35px;
-    font-size: 24px;
+    width: 210px;
+    height: 62px;
+    font-size: 32px;
     font-weight: 700;
     background-color: #2F6690;
     color: aliceblue;
     border: 0;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -146,29 +153,41 @@ input:focus{
     display: flex;
     align-items: center;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-top: 55px;
     
 }
+
+
 
 .input-email  i {
     color: #2F6690;
     margin-left: 5px;
+    font-size: 26px;
+    padding-left: 16px;
+    padding-right: 12px;
 }
 
 
 
 
 .input-senha {
+    margin-top: 40px;
     gap: 6px;
     display: flex;
     align-items: center;
     background-color: aliceblue;
-    border-radius: 10px;
+    border-radius: 20px;
+    
+    
 }
 
 .input-senha i {
     color: #2F6690;
     margin: 5px;
+    font-size: 26px;
+    padding-left: 16px;
+    padding-right: 12px;
 }
 
 
@@ -186,3 +205,25 @@ input::placeholder {
 a:hover {
     color: #8A2BE2;
 }
+
+.aumentar-tamanho-senha::placeholder{
+    font-size: var(--aumentarSize);
+}
+
+.email-input::placeholder{
+    font-size: var(--aumentarSize);
+}
+
+
+span{
+    font-size: var(--aumentarSize);
+}
+
+
+    
+
+
+
+
+
+

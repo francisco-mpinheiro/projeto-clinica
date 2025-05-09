@@ -13,3 +13,8 @@ a {
     text-decoration: none;
     color: black;
 }
+
+
+:root {
+    --aumentarSize: 20px;
+}
