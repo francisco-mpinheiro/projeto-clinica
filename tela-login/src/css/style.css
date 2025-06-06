@@ -28,7 +28,9 @@ body {
     align-items: center;
     margin: 150px 75px 50px auto;
     border-radius: 20px;
+    max-width: 1440px;
     
+
    
     
 }
@@ -48,7 +50,7 @@ body {
     border: 2px solid #509be2;
     background-color: aliceblue;
     border-radius: 50%;
-    top: -50px; /* Ajuste a posição para alinhar melhor */
+    top: -50px; 
     
     transform: translateY(-50%);
        
@@ -104,7 +106,7 @@ body {
 }
 
 .lembrar-recuperar-senha input[type="checkbox"] {
-    accent-color: #2F6690; /* Muda a cor do checkbox nos navegadores modernos */
+    accent-color: #2F6690; 
 }
 
 

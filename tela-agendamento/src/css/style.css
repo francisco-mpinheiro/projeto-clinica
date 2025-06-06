@@ -1,0 +1,288 @@
+body {
+    background-color: #2F6690; 
+}
+
+
+
+main {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 80px;
+    
+}
+
+
+
+
+/* CABECALHO */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.logo h1 {
+    font-size: 96px;
+    color: white;
+    
+}
+
+
+
+.texto-cabecalho {
+    display: flex;
+    gap: 1185px;
+}
+
+.texto-cabecalho img {
+    margin-top: 35px;
+}
+
+.logo .logo-do-site {
+    width: 170px;
+    height: 170px;
+    border: 2px solid #509be2;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.logo .info-cabecalho{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.logo .info-cabecalho .linha-destaque {
+     width: 100%;
+     transform: translateY(-150%);
+
+}
+
+
+/* CALENDARIO */
+
+
+
+.calendario {
+    width: 380px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3);
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    
+}
+
+.mesAno{
+    text-align: center;
+    font-weight: 600;
+    width: 150px;
+}
+
+.header button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.dia {
+    text-align: center;
+    padding: 5px;
+    color: #999fa6;
+    font-weight: 500;
+}
+
+.datas {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+
+.data:hover,
+.data:active{
+    color: white;
+    background-color: #3A7CA5;
+}
+
+
+.data.inativa{
+    color: #d2d2d2;
+}
+
+.data.inativa:hover{
+    color: #fff;
+}
+
+
+.cabecalho-calendario{
+    font-size:30px;
+    font-weight: 500;
+    color: #fff;
+    
+
+}
+
+.secao-calendario {
+  display: flex;
+  flex-direction: column;
+  margin-left: 195px;
+  
+  /* margin-top: 150px;
+  margin-left: 198px; */
+}
+
+
+/* FORMULARIO */
+
+.formulario {
+    width: 600px;
+    height: 610px;
+    border-radius: 20px;
+    background-color: #3A7CA5;
+    margin-left: 430px;
+   
+    
+   
+}
+
+
+
+.agendamento {
+    display: flex;
+    
+    
+    
+}
+
+
+
+
+
+.formulario h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+
+
+
+.formulario label {
+    font-size: 28px;
+    color: #fff;
+}
+
+.formulario select {
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 10px;
+    color: #3A7CA5;
+    font-weight: 500;
+    border: none;
+    
+} 
+
+
+.btn-confirmar {
+    margin-top: 60px;
+    width: 210px;
+    height: 62px;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #2F6690;
+    color: aliceblue;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    align-self: center;
+
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+
+.data.selecionada {
+  background-color: #2F6690;
+  color: white;
+  border: 2px solid white;
+}
+
+
+.formulario select:focus{
+   
+    outline: auto;
+  
+  
+ 
+
+}
+
+
+.formulario .horario{
+    height: 45px;
+    width: 150px;
+}
+
+
+.acessibilidade{
+    margin-left: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    
+}

@@ -17,4 +17,5 @@ a {
 
 :root {
     --aumentarSize: 20px;
+    --max-width-size: 1920px;
 }
