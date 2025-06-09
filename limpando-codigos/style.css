@@ -1,0 +1,314 @@
+
+/* ! CABECALHO */
+
+body {
+    background-color: grey;
+    display: flex;
+    
+    justify-content: center;
+    font-family: Inter;
+    
+}
+
+.container {
+    background-color: chartreuse;
+    /* max-width: 1440px; */
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: purple;
+    padding: 2rem;
+    margin: 2rem;                                          /* ! so para vizualizar o container */
+}
+
+
+.cabecalho h1 {
+    font-size: 96px;
+    color: white;
+    
+}
+
+.texto-cabecalho {
+    display: flex;
+    
+    background-color: darkcyan;
+    justify-content: space-between;
+   
+}
+
+.texto-cabecalho img {
+    margin-top: 35px;
+    
+}
+
+.cabecalho .logo-do-site {
+    width: 170px;
+    height: 170px;
+    border: 2px solid #509be2;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.cabecalho .info-cabecalho{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.cabecalho .info-cabecalho .linha-destaque {
+     width: 100%;
+     max-width: 1440px;
+     transform: translateY(-150%);
+
+}
+/* ! CABECALHO */
+
+/* AGENDAMENTO: ESSA PARTE E A DIV CONTAINER DOS ELEMENTOS DO CALENDARIO E FORMULARIO */
+
+.secao-agendamento {
+    display: flex;
+    justify-content: space-between;
+    background-color: crimson;
+    padding: 1rem;
+    margin: 2rem;                     /* ! SO PARA VISUAIZAR O CONTAINER     */
+    
+}
+
+
+
+/* AGENDAMENTO */
+
+
+/* ? CALENDARIO */
+
+
+.secao-calendario {
+    margin-left: 1rem;
+}
+
+.calendario {
+    width: 380px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3);
+    
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+
+    
+}
+
+.mesAno{
+    text-align: center;
+    font-weight: 600;
+    width: 150px;
+}
+
+.header button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.dia {
+    text-align: center;
+    padding: 5px;
+    color: #999fa6;
+    font-weight: 500;
+}
+
+.datas {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+
+.data:hover,
+.data:active{
+    color: white;
+    background-color: #3A7CA5;
+}
+
+
+.data.inativa{
+    color: #d2d2d2;
+}
+
+.data.inativa:hover{
+    color: #fff;
+}
+
+
+.cabecalho-calendario{
+    font-size:30px;
+    font-weight: 500;
+    color: #fff;
+    
+
+}
+
+/* ? CALENDARIO */
+
+/* FORMULARIO CALENDARIO */
+
+.secao-formulario {
+    width: 35%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #3A7CA5;
+    /* margin-left: 430px; */
+   
+    
+   
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+
+.secao-formulario  h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.secao-formulario img {
+    width: 100%;
+}
+
+
+
+
+
+
+.secao-formulario .form label {
+    font-size: 28px;
+    color: #fff;
+}
+
+.secao-formulario  .form select {
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 10px;
+    color: #3A7CA5;
+    font-weight: 500;
+    border: none;
+    
+} 
+
+
+.form .btn-confirmar {
+    margin-top: 60px;
+    width: 210px;
+    height: 62px;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #2F6690;
+    color: aliceblue;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    align-self: center;
+
+}
+
+
+
+
+.data.selecionada {
+  background-color: #2F6690;
+  color: white;
+  border: 2px solid white;
+}
+
+
+.secao-formulario .form select:focus{
+   
+    outline: auto;
+  
+  
+ 
+
+}
+
+
+.secao-formulario  .form .horario{
+    height: 45px;
+    width: 150px;
+}
+
+
+/* FORMULARIO CALENDARIO  */
+
+/* ? ACESSIBILIDADE */
+
+.acessibilidade{
+    margin-left: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    
+    
+}
+
+
+
+/* ? ACESSIBILIDADE */

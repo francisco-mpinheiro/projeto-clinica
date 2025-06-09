@@ -1,0 +1,73 @@
+
+
+@media (max-width: 576px) {
+
+    /* main {
+        display: flex;
+        flex-direction: column;
+    } */
+
+
+    .cabecalho {
+        flex-direction: column;
+        
+    }
+
+    .secao-agendamento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+
+    .secao-calendario {
+        margin: 0;
+    }
+
+    .secao-formulario {
+        width: 400px;
+    }
+
+    .texto-cabecalho img {
+       display: none;
+       
+    }
+
+    .texto-cabecalho  {
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1200px) {
+       .cabecalho {
+        flex-direction: column;
+        
+    }
+
+    .secao-agendamento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+
+    .secao-calendario {
+        margin: 0;
+    }
+
+    .secao-formulario {
+        width: 400px;
+    }
+
+
+}
+
+
+@media (max-width: 1440px){
+
+}
+
