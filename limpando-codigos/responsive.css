@@ -1,16 +1,29 @@
-
-
 @media (max-width: 576px) {
 
-    /* main {
-        display: flex;
-        flex-direction: column;
-    } */
+    body {
+        background-color: #2F6690;
+    }
 
+    .container {
+        margin: 1rem;
+        background-color: #2F6690;
+    }
 
     .cabecalho {
         flex-direction: column;
-        
+    }
+
+    .cabecalho .logo-do-site {
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .info-cabecalho {
+        margin: 0 auto;
+    }
+
+    .linha-destaque {
+        width: 0.1%;
     }
 
     .secao-agendamento {
@@ -18,56 +31,53 @@
         flex-direction: column;
         align-items: center;
         gap: 2rem;
-        
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: #2F6690;
     }
 
     .secao-calendario {
-        margin: 0;
+        margin: 0 auto;
     }
 
     .secao-formulario {
         width: 400px;
+        margin: 0 auto;
+        margin-bottom: 50px; /* Adicionado */
     }
 
     .texto-cabecalho img {
-       display: none;
-       
+        display: none;
     }
 
-    .texto-cabecalho  {
+    .texto-cabecalho {
         justify-content: center;
         text-align: center;
     }
 
-}
+    .cabecalho-calendario {
+        text-align: center;
+    }
 
-@media (max-width: 1200px) {
-       .cabecalho {
-        flex-direction: column;
+    .acessibilidade {
         
+        position: fixed;
+        margin-left: 450px;
     }
-
-    .secao-agendamento {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        
-    }
-
-    .secao-calendario {
-        margin: 0;
-    }
-
-    .secao-formulario {
-        width: 400px;
-    }
-
-
 }
 
 
-@media (max-width: 1440px){
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
