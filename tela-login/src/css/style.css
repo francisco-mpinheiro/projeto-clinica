@@ -15,18 +15,21 @@ body {
 .imagem-doutores{
     margin-left: 50px;
     margin-top: 50px;
+
 }
 
 
 
 .container {
     background-color: #3A7CA5;
-    width: 32%;
+    width: auto;
     height: 670px;
     display: flex;
+    padding: 1.6rem;
     flex-direction: column;
     align-items: center;
-    margin: 150px 75px 50px auto;
+    margin: 0 auto;
+    margin-top: 8rem;
     border-radius: 20px;
     max-width: 1440px;
     
@@ -121,7 +124,10 @@ body {
     border: 0;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 1rem
 }
+
+
 
 
 .container p {
@@ -141,8 +147,10 @@ input:focus{
 .acessibilidade {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     gap: 5px;
+    margin-top: 150px;
 }
 
 

@@ -1,0 +1,226 @@
+@media (max-width: 576px) {
+
+    body {
+        background-color: #2F6690;
+    }
+
+    .container {
+        margin: 1rem;
+        background-color: #2F6690;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .cabecalho .logo-do-site {
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .info-cabecalho {
+        margin: 0 auto;
+    }
+
+    .linha-destaque {
+        width: 0.1%;
+    }
+
+    .secao-agendamento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: #2F6690;
+    }
+
+    .secao-calendario {
+        margin: 0 auto;
+    }
+
+    .secao-formulario {
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 50px; /* Adicionado */
+    }
+
+    .texto-cabecalho img {
+        display: none;
+    }
+
+    .texto-cabecalho {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cabecalho-calendario {
+        text-align: center;
+    }
+
+    .acessibilidade {
+        
+        position: fixed;
+        margin-left: 450px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        background-color: #2F6690;
+    }
+
+    .container {
+        margin: 1rem;
+        background-color: #2F6690;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .cabecalho .logo-do-site {
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .info-cabecalho {
+        margin: 0 auto;
+    }
+
+    .linha-destaque {
+        width: 0.1%;
+    }
+
+    .secao-agendamento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: #2F6690;
+    }
+
+    .secao-calendario {
+        margin: 0 auto;
+    }
+
+    .secao-formulario {
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 50px; /* Adicionado */
+    }
+
+    .texto-cabecalho img {
+        display: none;
+    }
+
+    .texto-cabecalho {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cabecalho-calendario {
+        text-align: center;
+    }
+
+    .acessibilidade {
+        
+        position: fixed;
+        margin-left: 650px;
+    }
+
+
+
+
+}
+
+@media(min-width:769px) and (max-width: 980px){
+
+    body {
+        background-color: #2F6690;
+    }
+
+    .container {
+        margin: 1rem;
+        background-color: #2F6690;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .cabecalho .logo-do-site {
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .info-cabecalho {
+        margin: 0 auto;
+    }
+
+    .linha-destaque {
+        width: 0.1%;
+    }
+
+    .secao-agendamento {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 2rem;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: #2F6690;
+    }
+
+    .secao-calendario {
+        margin: 0 auto;
+    }
+
+    .secao-formulario {
+        width: 450px;
+        margin: 0 auto;
+        margin-bottom: 50px; /* Adicionado */
+    }
+
+    .texto-cabecalho img {
+        display: none;
+    }
+
+    .texto-cabecalho {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cabecalho-calendario {
+        text-align: center;
+    }
+
+    .acessibilidade {
+        
+        position: fixed;
+        margin-left: 650px;
+    }
+
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

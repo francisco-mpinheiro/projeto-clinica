@@ -1,5 +1,32 @@
-@media(max-width: 1440px){
-   
+@media (max-width: 576px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .imagem-doutores img {
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .inserir-dados input {
+        width: 20rem;
+    }
+
+    .lembrar-recuperar-senha {
+        gap: 4.6rem;
+    }
+
+    .acessibilidade {
+        position: fixed;
+        margin-left: 28rem;
+    }
+
+    .container {
+        margin-bottom: 4rem;
+    }
+
     
-   
 }

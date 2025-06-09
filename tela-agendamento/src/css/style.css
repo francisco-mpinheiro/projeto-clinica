@@ -1,72 +1,105 @@
+
+/* ! CABECALHO */
+
 body {
-    background-color: #2F6690; 
-}
-
-
-
-main {
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 80px;
+    
+    display: flex;
+    
+    justify-content: center;
+    font-family: Inter;
     
 }
 
+.container {
+    background-color: #2F6690;
+    /* max-width: 1440px; */
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
 
-
-
-/* CABECALHO */
-
-.logo {
+.cabecalho {
     display: flex;
     align-items: center;
     gap: 25px;
+    
+    /* padding: 2rem; */
+    margin: auto 0;                                          /* ! so para vizualizar o container */
 }
 
 
-.logo h1 {
+.cabecalho h1 {
     font-size: 96px;
     color: white;
     
 }
 
-
-
 .texto-cabecalho {
     display: flex;
-    gap: 1185px;
+    
+    
+    justify-content: space-between;
+   
 }
 
 .texto-cabecalho img {
     margin-top: 35px;
+    
 }
 
-.logo .logo-do-site {
+.cabecalho .logo-do-site {
     width: 170px;
     height: 170px;
     border: 2px solid #509be2;
     background-color: aliceblue;
     border-radius: 50%;
+    margin-top: 4rem;
+    margin-left: 6rem;
 }
 
-.logo .info-cabecalho{
+.cabecalho .info-cabecalho{
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;
 }
 
 
 
-.logo .info-cabecalho .linha-destaque {
+.cabecalho .info-cabecalho .linha-destaque {
      width: 100%;
+     /* max-width: 1440px; */
      transform: translateY(-150%);
 
 }
+/* ! CABECALHO */
+
+/* AGENDAMENTO: ESSA PARTE E A DIV CONTAINER DOS ELEMENTOS DO CALENDARIO E FORMULARIO */
+
+.secao-agendamento {
+    display: flex;
+    justify-content: space-between;
+    
+    /* padding: 1rem; */
+    margin: auto 0;                     /* ! SO PARA VISUAIZAR O CONTAINER     */
+    margin-top: 0.5rem;
+}
 
 
-/* CALENDARIO */
+
+/* AGENDAMENTO */
 
 
+/* ? CALENDARIO */
+
+
+.secao-calendario {
+    margin-top: 3rem;
+    margin-left: 18rem;
+}
 
 .calendario {
+    margin-top: 10px;
     width: 380px;
     height: auto;
     display: flex;
@@ -76,6 +109,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3);
     
+    
 }
 
 .header {
@@ -83,6 +117,7 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    
 
     
 }
@@ -164,58 +199,53 @@ main {
 
 }
 
-.secao-calendario {
-  display: flex;
-  flex-direction: column;
-  margin-left: 195px;
-  
-  /* margin-top: 150px;
-  margin-left: 198px; */
-}
+/* ? CALENDARIO */
 
+/* FORMULARIO CALENDARIO */
 
-/* FORMULARIO */
-
-.formulario {
+.secao-formulario {
     width: 600px;
-    height: 610px;
+    height: auto;
     border-radius: 20px;
     background-color: #3A7CA5;
-    margin-left: 430px;
+    margin-left: 29rem;
+   
+    
    
     
    
 }
 
-
-
-.agendamento {
+.form {
     display: flex;
-    
-    
-    
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 20px;
 }
 
 
-
-
-
-.formulario h2 {
+.secao-formulario  h2 {
     text-align: center;
     font-size: 40px;
     color: #fff;
     margin-top: 30px;
 }
 
+.secao-formulario img {
+    width: 100%;
+}
 
 
 
-.formulario label {
+
+
+
+.secao-formulario .form label {
     font-size: 28px;
     color: #fff;
 }
 
-.formulario select {
+.secao-formulario  .form select {
     width: 200px;
     height: 45px;
     display: flex;
@@ -231,7 +261,7 @@ main {
 } 
 
 
-.btn-confirmar {
+.form .btn-confirmar {
     margin-top: 60px;
     width: 210px;
     height: 62px;
@@ -247,12 +277,6 @@ main {
 }
 
 
-.form {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    margin-top: 20px;
-}
 
 
 .data.selecionada {
@@ -262,7 +286,7 @@ main {
 }
 
 
-.formulario select:focus{
+.secao-formulario .form select:focus{
    
     outline: auto;
   
@@ -272,17 +296,27 @@ main {
 }
 
 
-.formulario .horario{
+.secao-formulario  .form .horario{
     height: 45px;
     width: 150px;
 }
 
+
+/* FORMULARIO CALENDARIO  */
+
+/* ? ACESSIBILIDADE */
 
 .acessibilidade{
     margin-left: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 300px;
+    justify-content: center;
+    
+   
     
 }
+
+
+
+/* ? ACESSIBILIDADE */
