@@ -1,32 +1,20 @@
-@media (max-width: 576px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        
-    }
+@media (max-width: 769px) {
+  body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .imagem-doutores img {
-        width: 400px;
-        height: 400px;
-        margin: 0 auto;
-    }
+  .div_esquerda {
+    width: 100vw;
+    height: 50vh;
+  }
 
-    .inserir-dados input {
-        width: 20rem;
-    }
+  .div_direita {
+    width: 100vw;
+  }
 
-    .lembrar-recuperar-senha {
-        gap: 4.6rem;
-    }
-
-    .acessibilidade {
-        position: fixed;
-        margin-left: 28rem;
-    }
-
-    .container {
-        margin-bottom: 4rem;
-    }
-
-    
+  .imagem-doutores {
+    width: 80%;
+  }
 }

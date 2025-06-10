@@ -1,0 +1,19 @@
+@media (max-width: 576px) {
+  body {
+    flex-direction: column-reverse;
+  }
+
+  .div_direita {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .div_esquerda {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .div_titulo h1 {
+    left: 45%;
+  }
+}

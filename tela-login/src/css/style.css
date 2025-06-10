@@ -1,239 +1,198 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body {
-    background-color: #2F6690;
-    display: flex;
-    justify-content: space-evenly;
-    
-    align-items: center;
-    
-    
-    font-family: Inter;
-
-    color: aliceblue;
+  background-color: #2f6690;
+  margin: 0 auto;
+  display: flex;
 }
 
-.imagem-doutores{
-    margin-left: 50px;
-    margin-top: 50px;
-
+.div_esquerda {
+  width: 50vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
-.container {
-    background-color: #3A7CA5;
-    width: auto;
-    height: 670px;
-    display: flex;
-    padding: 1.6rem;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 8rem;
-    border-radius: 20px;
-    max-width: 1440px;
-    
-
-   
-    
+.div_direita {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
-.imagem-login{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    
+.imagem-doutores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
 }
 
-.imagem-login img {
-    
-    width: 168px;
-    height: 168px;
-    border: 2px solid #509be2;
-    background-color: aliceblue;
-    border-radius: 50%;
-    top: -50px; 
-    
-    transform: translateY(-50%);
-       
+.div_login {
+  background-color: #3a7ca5;
+  width: 600px;
+  height: 650px;
+  border-radius: 20px;
+  margin: 50px;
 }
 
-.imagem-login h1 {
-    transform: translateY(-100%);
-    font-size: 45px;
+.logo {
+  display: flex;
+  justify-content: center;
 }
 
-
-.formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transform: translateY(-15%);
+.logo img {
+  width: 168px;
+  height: 168px;
+  border: 3px solid #509be2;
+  background-color: aliceblue;
+  border-radius: 50%;
+  top: -50px;
+  transform: translateY(-50%);
+  margin: 25px;
 }
 
-.inserir-dados {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+.div_titulo h1 {
+  transform: translateY(-100%);
+  text-align: center;
+  font-size: 45px;
+  color: #fff;
 }
 
-.inserir-dados input{
-    width: 434px;
-    height: 55px;
-    border-radius: 20px;
-    border: 0;
-    
+.login {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
+.dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.input i {
+  color: #2f6690;
+}
 
-.lembrar-recuperar-senha{
-    
-    display: flex;
-    gap: 180px;
-    font-size: 12px;
-    margin-top: 15px;
-    
-    
+.input input {
+  width: 100%;
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 12pt;
+  margin-left: 10px;
+}
+
+.input label {
+  font-family: "Inter";
+  color: white;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.input-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 50px;
+  width: 400px;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 16px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+input::placeholder {
+  color: #2f6690;
+  font-family: "Inter";
+  font-size: 12pt;
+}
+
+.lembrar-recuperar-senha {
+  display: flex;
+  gap: 140px;
+  font-size: 12px;
+  /* margin-top: 15px; */
 }
 
 .lembrar-recuperar-senha li {
-    display: flex;
-    align-items: center;
-    gap: 2px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
 }
 
 .lembrar-recuperar-senha a {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .lembrar-recuperar-senha input[type="checkbox"] {
-    accent-color: #2F6690; 
+  accent-color: #2f6690;
 }
 
-
-.botao{
-    margin-top: 30px;
-    width: 210px;
-    height: 62px;
-    font-size: 32px;
-    font-weight: 700;
-    background-color: #2F6690;
-    color: aliceblue;
-    border: 0;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    padding: 1rem
+.botao-login-cadastro {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
-
-
-
-.container p {
-    margin-top: 10px;
-    
-    font-size: 12px;
+.botao {
+  width: 210px;
+  height: 62px;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: #2f6690;
+  color: aliceblue;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-
-input:focus{
-    outline: none;
-    border: none;
+.botao:hover {
+  background-color: white;
 }
 
-
-
-.acessibilidade {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    margin-top: 150px;
+.cadastro {
+  color: #fff;
 }
-
-
-/* Faltou conseguir por icone dentro do placeholder, tentar achar alguma solucao 
-    deixar responsivo, buscar melhorias, criar outras telas
-*/
-
-.input-email {
-    gap: 6px;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border-radius: 20px;
-    margin-top: 55px;
-    
-}
-
-
-
-.input-email  i {
-    color: #2F6690;
-    margin-left: 5px;
-    font-size: 26px;
-    padding-left: 16px;
-    padding-right: 12px;
-}
-
-
-
-
-.input-senha {
-    margin-top: 40px;
-    gap: 6px;
-    display: flex;
-    align-items: center;
-    background-color: aliceblue;
-    border-radius: 20px;
-    
-    
-}
-
-.input-senha i {
-    color: #2F6690;
-    margin: 5px;
-    font-size: 26px;
-    padding-left: 16px;
-    padding-right: 12px;
-}
-
-
-input::placeholder {
-    color: #2F6690 ;
-}
-
-
-
 
 .cadastro a {
-    color: white;
+  color: #fff;
 }
 
-a:hover {
-    color: #8A2BE2;
+.cadastro a:hover {
+  color: purple;
 }
 
-.aumentar-tamanho-senha::placeholder{
-    font-size: var(--aumentarSize);
+span {
+  font-size: 16px;
+  color: #fff;
 }
 
-.email-input::placeholder{
-    font-size: var(--aumentarSize);
+#icones {
+  font-size: 20px;
 }
 
-
-span{
-    font-size: var(--aumentarSize);
+.acessibilidade {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
-
-
-    
-
-
-
-
-
-

@@ -60,7 +60,7 @@ const adicionarEventosClique = () => {
       const ano = dataAtual.getFullYear();
       const novaData = new Date(ano, mes, diaClicado);
 
-      // Verifica se está clicando na mesma data já selecionada
+      
       if (
         dataSelecionada &&
         novaData.toDateString() === dataSelecionada.toDateString()
@@ -71,7 +71,7 @@ const adicionarEventosClique = () => {
         return;
       }
 
-      // Atualiza visual e lógica
+      
       dias.forEach((d) => d.classList.remove("selecionada"));
       dia.classList.add("selecionada");
       dataSelecionada = novaData;

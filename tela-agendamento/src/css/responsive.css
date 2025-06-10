@@ -1,226 +1,41 @@
 @media (max-width: 576px) {
+  .cabecalho {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
 
-    body {
-        background-color: #2F6690;
-    }
+  .linha-destaque {
+    display: none;
+  }
 
-    .container {
-        margin: 1rem;
-        background-color: #2F6690;
-    }
+  .texto-cabecalho h1 {
+    border-bottom: 3px solid #ffff;
+  }
 
-    .cabecalho {
-        flex-direction: column;
-    }
+  .secao-agendamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 20rem;
+  }
 
-    .cabecalho .logo-do-site {
-        margin: 0 auto;
-        margin-top: 2rem;
-    }
+  .secao-formulario {
+    border: 4rem solid #3a7ca5;
 
-    .info-cabecalho {
-        margin: 0 auto;
-    }
+    margin-bottom: 50px;
+  }
 
-    .linha-destaque {
-        width: 0.1%;
-    }
+  .texto-cabecalho img {
+    display: none;
+  }
 
-    .secao-agendamento {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        margin-top: 50px;
-        margin-bottom: 100px;
-        background-color: #2F6690;
-    }
+  .texto-cabecalho {
+    justify-content: center;
+    text-align: center;
+  }
 
-    .secao-calendario {
-        margin: 0 auto;
-    }
-
-    .secao-formulario {
-        width: 400px;
-        margin: 0 auto;
-        margin-bottom: 50px; /* Adicionado */
-    }
-
-    .texto-cabecalho img {
-        display: none;
-    }
-
-    .texto-cabecalho {
-        justify-content: center;
-        text-align: center;
-    }
-
-    .cabecalho-calendario {
-        text-align: center;
-    }
-
-    .acessibilidade {
-        
-        position: fixed;
-        margin-left: 450px;
-    }
+  .cabecalho-calendario {
+    text-align: center;
+  }
 }
-
-@media (min-width: 577px) and (max-width: 768px) {
-    body {
-        background-color: #2F6690;
-    }
-
-    .container {
-        margin: 1rem;
-        background-color: #2F6690;
-    }
-
-    .cabecalho {
-        flex-direction: column;
-    }
-
-    .cabecalho .logo-do-site {
-        margin: 0 auto;
-        margin-top: 2rem;
-    }
-
-    .info-cabecalho {
-        margin: 0 auto;
-    }
-
-    .linha-destaque {
-        width: 0.1%;
-    }
-
-    .secao-agendamento {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        margin-top: 50px;
-        margin-bottom: 100px;
-        background-color: #2F6690;
-    }
-
-    .secao-calendario {
-        margin: 0 auto;
-    }
-
-    .secao-formulario {
-        width: 400px;
-        margin: 0 auto;
-        margin-bottom: 50px; /* Adicionado */
-    }
-
-    .texto-cabecalho img {
-        display: none;
-    }
-
-    .texto-cabecalho {
-        justify-content: center;
-        text-align: center;
-    }
-
-    .cabecalho-calendario {
-        text-align: center;
-    }
-
-    .acessibilidade {
-        
-        position: fixed;
-        margin-left: 650px;
-    }
-
-
-
-
-}
-
-@media(min-width:769px) and (max-width: 980px){
-
-    body {
-        background-color: #2F6690;
-    }
-
-    .container {
-        margin: 1rem;
-        background-color: #2F6690;
-    }
-
-    .cabecalho {
-        flex-direction: column;
-    }
-
-    .cabecalho .logo-do-site {
-        margin: 0 auto;
-        margin-top: 2rem;
-    }
-
-    .info-cabecalho {
-        margin: 0 auto;
-    }
-
-    .linha-destaque {
-        width: 0.1%;
-    }
-
-    .secao-agendamento {
-        display: flex;
-        /* flex-direction: column; */
-        align-items: center;
-        gap: 2rem;
-        margin-top: 50px;
-        margin-bottom: 100px;
-        background-color: #2F6690;
-    }
-
-    .secao-calendario {
-        margin: 0 auto;
-    }
-
-    .secao-formulario {
-        width: 450px;
-        margin: 0 auto;
-        margin-bottom: 50px; /* Adicionado */
-    }
-
-    .texto-cabecalho img {
-        display: none;
-    }
-
-    .texto-cabecalho {
-        justify-content: center;
-        text-align: center;
-    }
-
-    .cabecalho-calendario {
-        text-align: center;
-    }
-
-    .acessibilidade {
-        
-        position: fixed;
-        margin-left: 650px;
-    }
-
-}
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
