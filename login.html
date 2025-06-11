@@ -1,54 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/css/style.css" />
-    <link rel="stylesheet" href="src/css/reset.css" />
-    <link rel="stylesheet" href="src/css/responsive.css" />
+    <link rel="stylesheet" href="src/css/login-css/style.css" />
+    <link rel="stylesheet" href="src/css/login-css/reset.css" />
+    <link rel="stylesheet" href="src/css/login-css/responsive.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
-    <title>Tela de login</title>
+    <title>Login</title>
   </head>
   <body>
     <div class="div_esquerda">
       <div class="imagem-doutores">
-        <img src="src/images/doctors-animate.svg" alt="" />
+        <img src="src/images/login-doctors-animate.svg" alt=" imagem doutores" />
       </div>
     </div>
 
     <div class="div_direita">
-      <div class="div_login">
+      <section class="secao_login">
         <div class="div_titulo">
           <div class="logo">
-            <img src="src/images/logo.png" alt="" />
+            <img src="src/images/logo.png" alt="logo do site" />
           </div>
           <h1>Login</h1>
         </div>
-        <form action="index.html" class="login">
+        <form action="agendamento.html" class="login">
           <div class="dados">
             <div class="input">
               <label for="email">Email:</label>
               <div class="input-container">
                 <i class="bi bi-envelope-at" id="icones"></i>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  class="email-input"
-                  placeholder="Digite seu e-mail"
-                />
+                <input type="email" name="email" id="email" class="email-input" placeholder="Digite seu e-mail"/>
               </div>
               <label for="senha">Senha:</label>
               <div class="input-container">
                 <i class="bi bi-lock" id="icones"></i>
-                <input
-                  type="password"
-                  name="senha"
-                  id="senha"
-                  placeholder="Digite sua senha"
-                  class="aumentar-tamanho-senha"
-                />
+                <input type="password" name="senha" id="senha"placeholder="Digite sua senha " class="aumentar-tamanho-senha"/>
+                
               </div>
+              
             </div>
             <ul class="lembrar-recuperar-senha">
               <li>
@@ -62,13 +52,13 @@
           </div>
 
           <div class="botao-login-cadastro">
-            <button type="button" class="botao">ENTRAR</button>
+            <button type="submit" class="botao">ENTRAR</button>
             <p class="cadastro">
-              Ainda nao tem conta? <a href="#">Cadastre-se</a>
+              Ainda nao tem conta? <a href="cadastro.html">Cadastre-se</a>
             </p>
           </div>
         </form>
-      </div>
+      </section>
     </div>
     <div class="acessibilidade">
       <a href="#">
