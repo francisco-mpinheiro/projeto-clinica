@@ -14,7 +14,7 @@
 -  **Tela de Agendamento** → `agendamento.html`  
 
 
-[<img src="./src/images/Animação.gif" alt="gif das telas do projeto">]
+<img src="./src/images/Animação.gif" alt="gif das telas do projeto">
 
 
 ## Tecnologias Utilizadas
